@@ -36,6 +36,7 @@ public class EjercicioEnClase {
         }
 
         // Mostramos el Top 3
+        // En total hay 4 pasadas
         System.out.println("--- TOP 3 ESTUDIANTES ---");
         int limite = Math.min(3, estudiantes.size());
         for (int i = 0; i < limite; i++) {
